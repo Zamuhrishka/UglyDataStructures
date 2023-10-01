@@ -1,16 +1,16 @@
-# Prerequisites
-*.d
-
+### C ###
 # Object files
 *.o
 *.ko
 *.obj
 *.elf
+*o.d
 
 # Linker output
 *.ilk
 *.map
 *.exp
+*.ld
 
 # Precompiled Headers
 *.gch
@@ -35,18 +35,34 @@
 *.i*86
 *.x86_64
 *.hex
+*.xml
 
 # Debug files
 *.dSYM/
-*.su
-*.idb
-*.pdb
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Temporary files
+*.tmp
+
+#Archive files
+*.zip
+
+#Build system files
+*.yml
+*.bat
+*.cfg
+*.rb
+
+#Folders
+build/
+linker/
+.vscode/
+tools/
+options/
+vendor
+docs/html
+
+#Files
+/docs/linked_list.md
+CMakeLists.txt
+src/config.h
+src/main.c
