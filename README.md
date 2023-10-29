@@ -4,7 +4,9 @@
 ![Static Badge](https://img.shields.io/badge/Coverage%3AFunctions-0%25-grey)
 ![Static Badge](https://img.shields.io/badge/Coverage%3ABranches-0%25-grey)
 
-# Ugly Data Structures
+# Ugly Data Structures: Crafting Core Data Structures in C
+
+<img src="docs/LOGO.png" width="200" height="200">
 
 This library based on data containers from [UglyContainers](https://github.com/Zamuhrishka/UglyContainers) repo. The primary goal of writing this library was an attempt to study data structures and algorithms. As is commonly known, the best way to learn something is to implement it. However, implementing data structures in languages like Python and C++ isn't as intriguing, as these languages already have built-in data structures. Therefore, C was chosen as the main development language. Another reason for this choice was the ambition to create a convenient and universal library for working with data structures and algorithms.
 
